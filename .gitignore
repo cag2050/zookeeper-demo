@@ -1,0 +1,9 @@
+.git
+.Ds_Store
+
+# idea
+.idea
+out
+*.iml
+
+*.log
