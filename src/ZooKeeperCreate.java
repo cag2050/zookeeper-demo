@@ -3,7 +3,7 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
-public class ZKCreate {
+public class ZooKeeperCreate {
     private static ZooKeeper zooKeeper;
     private static ZooKeeperConnection zooKeeperConnection;
 
@@ -12,7 +12,7 @@ public class ZKCreate {
     }
 
     public static void main(String[] args) {
-        String path = "/firstznode";
+        String path = "/firstznode2";
         byte[] data = "first znode app".getBytes();
 
         try {
