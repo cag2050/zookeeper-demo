@@ -3,8 +3,6 @@ import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooDefs;
 import org.apache.zookeeper.ZooKeeper;
 
-import java.io.IOException;
-
 public class ZKCreate {
     private static ZooKeeper zooKeeper;
     private static ZooKeeperConnection zooKeeperConnection;
